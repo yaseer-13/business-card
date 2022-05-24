@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.card-container {
+	background-color: #8ecae6;
+	color: #edede9;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.card {
+	background-color: #023047;
+	padding: 2rem;
+	border-radius: 1rem;
+	text-align: center;
+}
+.card-head > h1 {
+	font-size: 2.2rem;
+	padding: 1rem;
+}
+.card-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 7.5rem;
+	height: auto;
+	border-radius: 50%;
+	border: 5px solid #fb8500;
+}
+.card-body > h2 {
+	font-size: 1.2rem;
+	padding: 0.1rem;
+}
+.card-footer {
+	padding: 2rem 0;
+}
+.card-footer > a {
+	color: #caf0f8;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0 1rem;
+}
+.fa-solid {
+	font-size: 0.8rem;
+	margin-right: 0.3rem;
+}
+.fa-brands {
+	margin-right: 0.3rem;
+}
